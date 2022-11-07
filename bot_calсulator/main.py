@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from controller import *
 
-app = ApplicationBuilder().token("5765737795:AAHKQikSffRKIJC9WGu7XbXftzEORnWjFG0").build()
+app = ApplicationBuilder().token("").build()
 app.add_handler(CommandHandler("start", hi_commands))
 app.add_handler(CommandHandler("menu", menu_commands))
 app.add_handler(CommandHandler("sum", sum_commands))
